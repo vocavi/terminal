@@ -6,7 +6,7 @@ namespace Terminal {
 	class ITerminalParser {
 
 	public:
-		virtual void parse(std::string& input);
+		virtual void parse(std::string& input) = 0;
 
 	};
 }

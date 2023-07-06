@@ -9,7 +9,10 @@ namespace Terminal{
 	void Terminal::run(){
 		while (!this->shouldStop) {
 			std::cout << this->prefix << " ";
-			std::cin >> this->input;
+			std::getline(std::cin, this->input);
+
+			if (this->handler)std::cout << this->handler->handle(this->input) << std::endl;
+
 			if (this->input == "exit")this->shouldStop = true;
 
 			std::cout << this->lastInput << std::endl;

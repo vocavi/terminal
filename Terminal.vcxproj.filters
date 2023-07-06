@@ -24,16 +24,16 @@
     <ClInclude Include="include\ITerminalHandler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\DefaultParser.h">
+    <ClInclude Include="include\DefaultParser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\Token.h">
+    <ClInclude Include="include\Token.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\TokenType.h">
+    <ClInclude Include="include\TokenType.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\DefaultHandler.h">
+    <ClInclude Include="include\DefaultHandler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

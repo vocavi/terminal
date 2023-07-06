@@ -11,6 +11,8 @@ namespace Terminal {
 	public:
 		void parse(std::string& input) override;
 
+		inline std::vector<Token>& getTokens() { return this->tokens; }
+
 	private:
 		std::vector<Token> tokens;
 	};
