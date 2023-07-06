@@ -163,9 +163,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="src\DefaultHandler.h" />
+    <ClInclude Include="src\DefaultParser.h" />
+    <ClInclude Include="include\ITerminalHandler.h" />
+    <ClInclude Include="include\ITerminalParser.h" />
     <ClInclude Include="include\Terminal.h" />
+    <ClInclude Include="src\Token.h" />
+    <ClInclude Include="src\TokenType.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\DefaultHandler.cpp" />
+    <ClCompile Include="src\DefaultParser.cpp" />
     <ClCompile Include="src\Terminal.cpp" />
     <ClCompile Include="tests\main.cpp" />
   </ItemGroup>
